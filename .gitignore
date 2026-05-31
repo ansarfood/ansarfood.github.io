@@ -1,0 +1,10 @@
+.DS_Store
+assets/.DS_Store
+
+# Source materials and local transfer artifacts
+*.docx
+*.pdf
+*.zip
+*.enc
+build-tilda-bundle.mjs
+tilda/
