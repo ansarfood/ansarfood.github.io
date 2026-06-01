@@ -38,7 +38,8 @@ body{
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 h1,h2,h3{font-family:"Comfortaa",sans-serif;line-height:1.1;letter-spacing:-.01em;font-weight:700}
-.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.container{width:100%;max-width:var(--maxw);min-width:0;margin:0 auto;padding:0 24px}
+.contact-grid{width:100%;min-width:0}
 .center{text-align:center}
 .grad{
   background:linear-gradient(100deg,var(--yellow),var(--amber) 55%,var(--orange));
@@ -236,8 +237,8 @@ h1,h2,h3{font-family:"Comfortaa",sans-serif;line-height:1.1;letter-spacing:-.01e
 .contact-info h2{font-size:clamp(1.9rem,4vw,2.7rem);margin-bottom:16px}
 .contact-info>p{color:rgba(255,255,255,.8);margin-bottom:28px;font-size:1.04rem;font-weight:300}
 .contact-list{list-style:none;display:grid;gap:16px}
-.contact-list li{display:flex;align-items:flex-start;gap:14px;font-size:1.08rem;font-weight:500;min-width:0}
-.contact-list a{min-width:0;overflow-wrap:anywhere;word-break:break-word;line-height:1.35}
+.contact-list li{display:flex;align-items:flex-start;gap:14px;font-size:1.08rem;font-weight:500;min-width:0;max-width:100%}
+.contact-list a{flex:1 1 0;min-width:0;max-width:100%;overflow-wrap:anywhere;word-break:break-word;line-height:1.35}
 .contact-list span{flex:none;width:44px;height:44px;display:grid;place-items:center;border-radius:12px;background:rgba(255,255,255,.1);color:var(--yellow)}
 .contact-list span svg{width:20px;height:20px}
 .contact-list a:hover{color:var(--yellow)}
@@ -297,7 +298,8 @@ h1,h2,h3{font-family:"Comfortaa",sans-serif;line-height:1.1;letter-spacing:-.01e
   .hero{padding:120px 0 70px}
   .hero-cta .btn{white-space:normal;text-align:center}
   .checklist li:hover{transform:none}
-  .contact-list{font-size:1rem}
+  .contact-list{font-size:.95rem}
+  .contact-list li:first-child a{font-size:.9rem}
   .contact-form{padding:24px 20px}
   .contact-info h2,.contact-info>p{overflow-wrap:anywhere}
   .calc-formula{padding:18px 16px}
