@@ -237,7 +237,7 @@ h1,h2,h3{font-family:"Comfortaa",sans-serif;line-height:1.1;letter-spacing:-.01e
 .contact-info h2{font-size:clamp(1.9rem,4vw,2.7rem);margin-bottom:16px}
 .contact-info>p{color:rgba(255,255,255,.8);margin-bottom:28px;font-size:1.04rem;font-weight:300}
 .contact-list{list-style:none;display:grid;gap:16px}
-.contact-list li{display:flex;align-items:flex-start;gap:14px;font-size:1.08rem;font-weight:500;min-width:0;max-width:100%}
+.contact-list li{display:flex;align-items:center;gap:14px;font-size:1.08rem;font-weight:500;min-width:0;max-width:100%}
 .contact-list a{flex:1 1 0;min-width:0;max-width:100%;overflow-wrap:anywhere;word-break:break-word;line-height:1.35}
 .contact-list span{flex:none;width:44px;height:44px;display:grid;place-items:center;border-radius:12px;background:rgba(255,255,255,.1);color:var(--yellow)}
 .contact-list span svg{width:20px;height:20px}
