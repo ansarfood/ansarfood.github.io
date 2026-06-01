@@ -174,7 +174,6 @@ h1,h2,h3{font-family:"Comfortaa",sans-serif;line-height:1.1;letter-spacing:-.01e
 .format-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:38px 34px;box-shadow:var(--shadow-sm);transition:transform .3s var(--ease),box-shadow .3s var(--ease);position:relative;overflow:hidden}
 .format-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-md)}
 .format-card--accent{background:linear-gradient(160deg,var(--red),var(--orange));color:#fff;border-color:transparent}
-.format-card--accent ul li{color:rgba(255,255,255,.92)}
 .format-card--accent ul li::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffdd00' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.2 4.2L19 7'/%3E%3C/svg%3E")}
 .format-emoji{margin-bottom:14px;color:var(--orange)}
 .format-emoji svg{width:48px;height:48px}
@@ -184,6 +183,7 @@ h1,h2,h3{font-family:"Comfortaa",sans-serif;line-height:1.1;letter-spacing:-.01e
 .format-card--accent .format-tags{color:var(--yellow)}
 .format-card ul{list-style:none;display:grid;gap:12px}
 .format-card ul li{padding-left:28px;position:relative;color:var(--ink-soft);font-weight:300}
+.format-card--accent ul li{color:rgba(255,255,255,.95)}
 .format-card ul li::before{content:"";position:absolute;left:0;top:.4em;width:15px;height:15px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ec6608' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.2 4.2L19 7'/%3E%3C/svg%3E") center/contain no-repeat}
 
 /* ===== Menu ===== */
